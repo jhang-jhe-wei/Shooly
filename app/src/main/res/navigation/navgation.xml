@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgation"
+    app:startDestination="@id/dataFragment">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.homi.shooly.login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.homi.shooly.searchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/evaluateFragment"
+        android:name="com.homi.shooly.evaluateFragment"
+        android:label="fragment_evaluate"
+        tools:layout="@layout/fragment_evaluate" />
+    <fragment
+        android:id="@+id/searchResultFragment"
+        android:name="com.homi.shooly.searchResultFragment"
+        android:label="fragment_search_result"
+        tools:layout="@layout/fragment_search_result" />
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.homi.shooly.dataFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+    <fragment
+        android:id="@+id/chatListFragment"
+        android:name="com.homi.shooly.chatListFragment"
+        android:label="fragment_chat_list"
+        tools:layout="@layout/fragment_chat_list" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.homi.shooly.chatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>
