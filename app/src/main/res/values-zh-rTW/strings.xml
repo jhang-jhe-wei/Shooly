@@ -27,4 +27,5 @@
     <string name="schedule">預約時間</string>
     <string name="today_18_00">今天下午6點</string>
     <string name="finish_service">完成服務</string>
+    <string name="search_technicians">查詢技師</string>
 </resources>

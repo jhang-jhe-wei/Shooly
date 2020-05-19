@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/search_button_backgroup"
         android:padding="10dp"
-        android:text="Search technicians"
+        android:text="@string/search_technicians"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
