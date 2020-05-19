@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shooly</string>
+    <string name="chiayi_city">嘉義</string>
+    <string name="chat_room_list">聊天室</string>
+    <string name="technician_information">技師資訊</string>
+    <string name="service_type">服務項目</string>
+    <string name="service">電氣裝置，水槽固定，電氣設備固定</string>
+    <string name="service_area">服務區域</string>
+    <string name="chiayi_city_shuishang_township">上水鄉嘉義市</string>
+    <string name="experience">年資</string>
+    <string name="_5_years">五年</string>
+    <string name="license">證照</string>
+    <string name="house_decoration_class_a_industrial_wiring_class_c_tap_water_piping_grade_c_air_pressure_level_c_electrical_equipment_class_c">屋內線路裝修(甲級),工業配線(丙級),自來水配管(丙級),氣壓(丙級),用電設備(丙級)</string>
+    <string name="other">其他</string>
+    <string name="contact_now">立即聯絡</string>
+    <string name="_2017worldskill_electrical_installations_excellent">2017WorldSkill Electrical installations 優勝</string>
+    <string name="evaluation_overview">評論總覽</string>
+    <string name="email">電子郵件</string>
+    <string name="password">密碼</string>
+    <string name="forget_password">忘記密碼?</string>
+    <string name="login">登入</string>
+    <string name="chick_here_for_sign_up">註冊按這邊</string>
+    <string name="your_location">你的位置</string>
+    <string name="do_you_need_any_service">你需要什麼服務?</string>
+    <string name="please_enter_your_location">請輸入你的地址</string>
+    <string name="schedule">預約時間</string>
+    <string name="today_18_00">今天下午6點</string>
+    <string name="finish_service">完成服務</string>
+</resources>

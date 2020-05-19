@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroup_gray_frame">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/evaluate_holder_comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/evaluate_holder_photo"
+            android:layout_width="31dp"
+            android:layout_height="34dp"
+            android:layout_weight="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/maxresdefault" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Amy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/evaluate_holder_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:text="@string/chiayi_city"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/hint_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/evaluate_holder_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="capo is cute!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/hint_color"
+        app:layout_constraintBottom_toTopOf="@+id/evaluate_holder_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+    <ImageView
+        android:id="@+id/evaluate_holder_image"
+        android:layout_width="165dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toTopOf="@+id/evaluate_holder_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/evaluate_holder_comment"
+        app:layout_constraintTop_toBottomOf="@+id/evaluate_holder_comment"
+        app:srcCompat="@drawable/maxresdefault" />
+
+    <TextView
+        android:id="@+id/evaluate_holder_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="2020-05-19 10:41"
+        android:textColor="@color/hint_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/evaluate_holder_image"
+        app:layout_constraintTop_toBottomOf="@+id/evaluate_holder_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

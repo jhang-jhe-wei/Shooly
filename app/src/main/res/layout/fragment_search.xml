@@ -32,10 +32,11 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/search_button_backgroup"
+        android:padding="10dp"
         android:text="Search technicians"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,12 +74,12 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Do you need any service?"
+            android:text="@string/do_you_need_any_service"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/black" />
 
-        <EditText
-            android:id="@+id/editText4"
+        <TextView
+            android:id="@+id/textview_search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/search_backgroup"
@@ -91,7 +92,7 @@
             android:textColorHint="@android:color/darker_gray" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
+            android:id="@+id/recycleview_search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -112,16 +113,17 @@
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Your Location"
+            android:text="@string/your_location"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/black" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/ed_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/search_backgroup"
             android:ems="10"
+            android:hint="@string/please_enter_your_location"
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -134,7 +136,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_search"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -146,16 +148,17 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Schedule"
+            android:text="@string/schedule"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/black" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/ed_schedule"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/search_backgroup"
             android:ems="10"
+            android:hint="@string/today_18_00"
             android:inputType="datetime|textPersonName"
             android:paddingLeft="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"

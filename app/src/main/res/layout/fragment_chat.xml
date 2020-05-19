@@ -38,7 +38,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView2"
+        android:id="@+id/recycleview_chat"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView2">
+        app:layout_constraintTop_toBottomOf="@+id/recycleview_chat">
 
         <Space
             android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/ed_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -80,7 +80,7 @@
             android:textColor="@android:color/black" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btn_message_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

@@ -28,7 +28,7 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chat Room List"
+            android:text="@string/chat_room_list"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -37,6 +37,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview_chat_room_list"
         android:layout_width="409dp"
         android:layout_height="739dp"
         app:layout_constraintBottom_toBottomOf="parent"

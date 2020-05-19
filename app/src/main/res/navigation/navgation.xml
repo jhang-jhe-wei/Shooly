@@ -3,18 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navgation"
-    app:startDestination="@id/dataFragment">
+    app:startDestination="@id/login">
 
     <fragment
         android:id="@+id/login"
         android:name="com.homi.shooly.login"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login">
+
+    </fragment>
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.homi.shooly.searchFragment"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search">
+
+    </fragment>
     <fragment
         android:id="@+id/evaluateFragment"
         android:name="com.homi.shooly.evaluateFragment"
@@ -24,12 +28,16 @@
         android:id="@+id/searchResultFragment"
         android:name="com.homi.shooly.searchResultFragment"
         android:label="fragment_search_result"
-        tools:layout="@layout/fragment_search_result" />
+        tools:layout="@layout/fragment_search_result">
+
+    </fragment>
     <fragment
         android:id="@+id/dataFragment"
         android:name="com.homi.shooly.dataFragment"
         android:label="fragment_information"
-        tools:layout="@layout/fragment_information" />
+        tools:layout="@layout/fragment_data">
+
+    </fragment>
     <fragment
         android:id="@+id/chatListFragment"
         android:name="com.homi.shooly.chatListFragment"
