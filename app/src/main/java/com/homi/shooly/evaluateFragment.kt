@@ -17,7 +17,11 @@ import kotlinx.android.synthetic.main.fragment_evaluate.*
  * create an instance of this fragment.
  */
 class evaluateFragment : Fragment() {
-
+    val photos= arrayOf(R.drawable.shooly07,R.drawable.shooly08,R.drawable.shooly09,R.drawable.shooly10)
+    val names= arrayOf("小虎","福仔","建宏","阿德")
+    val locations= arrayOf("朴子市、太保市","嘉義市、民雄鄉、水上鄉、大林鎮","嘉義市、民雄鄉、太保市","水上鄉、中埔鄉")
+    val stars= arrayOf("★   ★   ★   ★   ★","★   ★   ★","★   ★   ★   ★","★   ★   ★   ★   ★")
+    val times= arrayOf("100次","27次","30次","77次")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
