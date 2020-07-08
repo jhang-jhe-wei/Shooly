@@ -2,5 +2,31 @@
     <string name="app_name">Shooly</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chiayi_city">Chiayi City</string>
+    <string name="chat_room_list">Chat Room List</string>
+    <string name="technician_information">Technician Information</string>
+    <string name="service_type">Service Type</string>
+    <string name="service">Electrical installations,fix the sink,fix eletrical device</string>
+    <string name="service_area">Service Area</string>
+    <string name="chiayi_city_shuishang_township">Chiayi City,Shuishang Township</string>
+    <string name="experience">Experience</string>
+    <string name="_5_years">5 years</string>
+    <string name="license">License</string>
+    <string name="house_decoration_class_a_industrial_wiring_class_c_tap_water_piping_grade_c_air_pressure_level_c_electrical_equipment_class_c">House decoration (Class A), Industrial wiring (Class C), Tap water piping (grade C), Air pressure (level C), Electrical equipment (Class C)</string>
+    <string name="other">Other</string>
+    <string name="_2017worldskill_electrical_installations_excellent">2017WorldSkill Electrical installations excellent</string>
+    <string name="contact_now">Contact Now</string>
+    <string name="evaluation_overview">Evaluation Overview</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="login">Login</string>
+    <string name="chick_here_for_sign_up">Chick here for sign up</string>
+    <string name="your_location">Your Location</string>
+    <string name="do_you_need_any_service">Do you need any service?</string>
+    <string name="please_enter_your_location">please enter your location</string>
+    <string name="schedule">Schedule</string>
+    <string name="today_18_00">Today 18:00</string>
+    <string name="finish_service">finish service</string>
+    <string name="search_technicians">Search technicians</string>
 </resources>
